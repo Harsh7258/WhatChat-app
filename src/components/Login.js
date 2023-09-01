@@ -12,7 +12,7 @@ const Login = () => {
                 <h2>Welcome to WhatChat!</h2>
                 <div className="login-button google"
                 onClick={() => auth.signInWithRedirect(new  firebase.auth.GoogleAuthProvider())}>
-                    <GoogleOutlined     style={{paddingRight: "10px"}}/>
+                    <GoogleOutlined style={{paddingRight: "10px"}}/>
                     SignIn with Google
                 </div>
                 <br/> <br/>
